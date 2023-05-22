@@ -13,24 +13,24 @@
 		"lint": "prettier --plugin-search-dir . --check .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
-	"devDependencies": {
-		"@playwright/test": "^1.33.0",
-		"@sveltejs/adapter-auto": "^2.0.1",
-		"@sveltejs/kit": "^1.16.3",
-		"prettier": "^2.8.8",
-		"prettier-plugin-svelte": "^2.10.0",
-		"svelte": "^3.59.1",
-		"svelte-check": "^3.3.2",
-		"tslib": "^2.5.0",
-		"typescript": "^5.0.4",
-		"vite": "^4.3.5",
-		"vitest": "^0.31.0"
-	},
 	"type": "module",
 	"dependencies": {
 		"@supabase/auth-helpers-sveltekit": "^0.9.4",
 		"@supabase/auth-ui-shared": "^0.1.6",
 		"@supabase/auth-ui-svelte": "^0.2.2",
-		"@supabase/supabase-js": "^2.21.0"
+		"@supabase/supabase-js": "^2.22.0"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.34.0",
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"@sveltejs/kit": "^1.18.0",
+		"prettier": "^2.8.8",
+		"prettier-plugin-svelte": "^2.10.0",
+		"svelte": "^3.59.1",
+		"svelte-check": "^3.3.2",
+		"tslib": "^2.5.2",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.8",
+		"vitest": "^0.31.1"
 	}
 }
