@@ -1,7 +1,14 @@
 {
   "cSpell.words": [
+    "gcloud",
+    "inbucket",
+    "keycloak",
+    "OIDC",
+    "PGPASSWORD",
     "signout",
+    "signups",
     "Supa",
-    "supabase"
+    "supabase",
+    "workos"
   ]
 }
