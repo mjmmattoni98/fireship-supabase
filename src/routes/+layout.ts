@@ -1,4 +1,4 @@
-import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
+import { PUBLIC_SUPABASE_API_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
 import { createSupabaseLoadClient } from '@supabase/auth-helpers-sveltekit';
 import type { LayoutLoad } from './$types';
 
@@ -6,7 +6,7 @@ export const load: LayoutLoad = async ({ fetch, data, depends }) => {
 	depends('supabase:auth');
 
 	const supabase = createSupabaseLoadClient({
-		supabaseUrl: PUBLIC_SUPABASE_URL,
+		supabaseUrl: PUBLIC_SUPABASE_API_URL,
 		supabaseKey: PUBLIC_SUPABASE_ANON_KEY,
 		event: { fetch },
 		serverSession: data.session
