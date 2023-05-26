@@ -1,5 +1,9 @@
 {
   "cSpell.words": [
+    "autodetection",
+    "bucketid",
+    "bucketname",
+    "fkey",
     "gcloud",
     "inbucket",
     "keycloak",
@@ -7,6 +11,8 @@
     "PGPASSWORD",
     "signout",
     "signups",
+    "sortcolumn",
+    "sortorder",
     "Supa",
     "supabase",
     "workos"
