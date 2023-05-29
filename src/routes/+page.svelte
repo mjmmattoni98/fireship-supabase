@@ -6,10 +6,10 @@
 </script>
 
 <svelte:head>
-	<title>User Management</title>
+	<title>Message board</title>
 </svelte:head>
 
-<div class="row flex-center flex">
+<!-- <div class="row flex-center flex">
 	<div class="col-6 form-widget">
 		<Auth
 			additionalData={{ url: data.url }}
@@ -20,4 +20,11 @@
 			appearance={{ theme: ThemeSupa, style: { input: 'color: #fff' } }}
 		/>
 	</div>
+</div> -->
+
+<div class="message-board-container">
+	<a href="/1">
+		<h2 class="message-board-header-link">Message Board</h2>
+	</a>
+	<!-- <Outlet /> -->
 </div>
