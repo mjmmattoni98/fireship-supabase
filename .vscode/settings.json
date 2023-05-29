@@ -1,21 +1,21 @@
 {
   "cSpell.words": [
+    "anteprimorac",
     "asdfhkdasfljfjdakdlsjflakdsjflkasdjflak",
     "autodetection",
+    "bradlc",
     "bucketid",
     "bucketname",
+    "Chakroun",
     "fkey",
     "gcloud",
     "inbucket",
     "keycloak",
-    "OIDC",
-    "PGPASSWORD",
-    "anteprimorac",
-    "bradlc",
-    "Chakroun",
     "kisstkondoros",
+    "OIDC",
     "ossdata",
     "pflannery",
+    "PGPASSWORD",
     "pranaygp",
     "sburg",
     "signout",
@@ -23,6 +23,7 @@
     "sortcolumn",
     "sortorder",
     "Supa",
-    "supabase"
+    "supabase",
+    "versionlens"
   ]
 }
