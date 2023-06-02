@@ -4,8 +4,15 @@
 	import '../styles.css';
 
 	export let data;
+	let authStateInfo = 'loading';
 
 	$: ({ supabase, session } = data);
+
+	$: if (session?.user) {
+		authStateInfo = `logged in as ${session.user.email}`;
+	} else {
+		authStateInfo = 'not logged in';
+	}
 
 	onMount(() => {
 		const { data } = supabase.auth.onAuthStateChange((event, _session) => {
@@ -32,15 +39,16 @@
 				alt="logo"
 			/>
 		</a>
-	
+
 		<ul class="nav-right-list">
 			<li class="nav-message-board-list-item">
-				<a href="/1" class="nav-message-board-link">
-					message board
-				</a>
+				<a href="/1" class="nav-message-board-link"> message board </a>
+			</li>
+			<li class="nav-auth-item">
+				{authStateInfo}
 			</li>
 		</ul>
-	</nav>	
+	</nav>
 </header>
 
 <main>

@@ -19,9 +19,9 @@ async function startSupabase() {
 
 function reseedDb() {
 	execSync(
-		// 'PGPASSWORD=postgres psql -U postgres -h 127.0.0.1 -p 54322 -f supabase/clear-db-data.sql',
+		'PGPASSWORD=postgres psql -U postgres -h 127.0.0.1 -p 54322 -f supabase/clear-db-data.sql',
 		// for Windows:
-		"SET PGPASSWORD=postgres&&psql -U postgres -h 127.0.0.1 -p 54322 -f supabase/clear-db-data.sql",
+		// "SET PGPASSWORD=postgres&&psql -U postgres -h 127.0.0.1 -p 54322 -f supabase/clear-db-data.sql",
 		{ stdio: 'ignore' }
 	);
 }

@@ -6,7 +6,7 @@
 
 	let { session, supabase, profile } = data;
 
-  	let profileForm: any;
+  let profileForm: any;
 	let loading = false;
 	let fullName: string = profile?.full_name ?? '';
 	let username: string = profile?.username ?? '';
